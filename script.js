@@ -4,6 +4,7 @@ window.onload = function () {
     var push = document.getElementById("push")
 
     push.onclick = function () {
-        console.log('!')
+        console.log(user.value)
+        console.log(comment.value)
     }
 }
